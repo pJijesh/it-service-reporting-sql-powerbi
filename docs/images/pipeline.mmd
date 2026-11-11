@@ -1,0 +1,17 @@
+flowchart LR
+    G["generator/<br/>seeded synthetic tickets,<br/>four companies, nine sites"]
+    D[("data/*.csv<br/>10 files")]
+    L["sql/loader.py<br/>checks every row,<br/>reports file and line"]
+    DB[("SQLite database<br/>15 views")]
+    M["model/fact_ticket.csv<br/>one row per ticket,<br/>clock already calculated"]
+    P["powerbi/<br/>star schema, M, DAX,<br/>page layout (design only)"]
+    R["reports/build_report.py<br/>board pack and 4 SVG charts"]
+    C["commentary<br/>hand written"]
+    T["tests/<br/>hand built fixture,<br/>independent Python oracle"]
+
+    G --> D --> L --> DB
+    DB --> M --> P
+    DB --> R
+    C --> R
+    T -. checks .-> DB
+    T -. checks .-> R

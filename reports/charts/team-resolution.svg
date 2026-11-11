@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="434" viewBox="0 0 760 434" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">Resolution within target, by team</title>
+<desc id="d">Horizontal bar chart of the resolution target result for each team, for November 2025 and October 2025.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="28" font-size="16" text-anchor="start" fill="#1f2933" font-weight="bold">Resolution within target, by team</text>
+<text x="24" y="47" font-size="12" text-anchor="start" fill="#52606d" font-weight="normal">Incidents and service requests opened in the month, per cent that met their resolution target</text>
+<line x1="170" y1="64" x2="170" y2="390" stroke="#d9dee3"/>
+<text x="170" y="406" font-size="11" text-anchor="middle" fill="#52606d" font-weight="normal">0</text>
+<line x1="274" y1="64" x2="274" y2="390" stroke="#d9dee3"/>
+<text x="274" y="406" font-size="11" text-anchor="middle" fill="#52606d" font-weight="normal">20</text>
+<line x1="378" y1="64" x2="378" y2="390" stroke="#d9dee3"/>
+<text x="378" y="406" font-size="11" text-anchor="middle" fill="#52606d" font-weight="normal">40</text>
+<line x1="482" y1="64" x2="482" y2="390" stroke="#d9dee3"/>
+<text x="482" y="406" font-size="11" text-anchor="middle" fill="#52606d" font-weight="normal">60</text>
+<line x1="586" y1="64" x2="586" y2="390" stroke="#d9dee3"/>
+<text x="586" y="406" font-size="11" text-anchor="middle" fill="#52606d" font-weight="normal">80</text>
+<line x1="690" y1="64" x2="690" y2="390" stroke="#d9dee3"/>
+<text x="690" y="406" font-size="11" text-anchor="middle" fill="#52606d" font-weight="normal">100</text>
+<text x="160" y="96" font-size="12" text-anchor="end" fill="#1f2933" font-weight="normal">Application Support</text>
+<rect x="170" y="70" width="482" height="17" fill="#56B4E9"/>
+<text x="658" y="83" font-size="11" text-anchor="start" fill="#1f2933" font-weight="normal" stroke="#ffffff" stroke-width="3" paint-order="stroke">92.7%</text>
+<rect x="170" y="92" width="319.8" height="17" fill="#0072B2"/>
+<text x="495.8" y="105" font-size="11" text-anchor="start" fill="#1f2933" font-weight="normal" stroke="#ffffff" stroke-width="3" paint-order="stroke">61.5%</text>
+<text x="160" y="158" font-size="12" text-anchor="end" fill="#1f2933" font-weight="normal">Field Services</text>
+<rect x="170" y="132" width="468.5" height="17" fill="#56B4E9"/>
+<text x="644.5" y="145" font-size="11" text-anchor="start" fill="#1f2933" font-weight="normal" stroke="#ffffff" stroke-width="3" paint-order="stroke">90.1%</text>
+<rect x="170" y="154" width="472.7" height="17" fill="#0072B2"/>
+<text x="648.7" y="167" font-size="11" text-anchor="start" fill="#1f2933" font-weight="normal" stroke="#ffffff" stroke-width="3" paint-order="stroke">90.9%</text>
+<text x="160" y="220" font-size="12" text-anchor="end" fill="#1f2933" font-weight="normal">Identity and Security</text>
+<rect x="170" y="194" width="459.7" height="17" fill="#56B4E9"/>
+<text x="635.7" y="207" font-size="11" text-anchor="start" fill="#1f2933" font-weight="normal" stroke="#ffffff" stroke-width="3" paint-order="stroke">88.4%</text>
+<rect x="170" y="216" width="470.1" height="17" fill="#0072B2"/>
+<text x="646.1" y="229" font-size="11" text-anchor="start" fill="#1f2933" font-weight="normal" stroke="#ffffff" stroke-width="3" paint-order="stroke">90.4%</text>
+<text x="160" y="282" font-size="12" text-anchor="end" fill="#1f2933" font-weight="normal">Infrastructure</text>
+<rect x="170" y="256" width="473.2" height="17" fill="#56B4E9"/>
+<text x="649.2" y="269" font-size="11" text-anchor="start" fill="#1f2933" font-weight="normal" stroke="#ffffff" stroke-width="3" paint-order="stroke">91.0%</text>
+<rect x="170" y="278" width="485.7" height="17" fill="#0072B2"/>
+<text x="661.7" y="291" font-size="11" text-anchor="start" fill="#1f2933" font-weight="normal" stroke="#ffffff" stroke-width="3" paint-order="stroke">93.4%</text>
+<text x="160" y="344" font-size="12" text-anchor="end" fill="#1f2933" font-weight="normal">Service Desk</text>
+<rect x="170" y="318" width="517.9" height="17" fill="#56B4E9"/>
+<text x="693.9" y="331" font-size="11" text-anchor="start" fill="#1f2933" font-weight="normal" stroke="#ffffff" stroke-width="3" paint-order="stroke">99.6%</text>
+<rect x="170" y="340" width="520" height="17" fill="#0072B2"/>
+<text x="696" y="353" font-size="11" text-anchor="start" fill="#1f2933" font-weight="normal" stroke="#ffffff" stroke-width="3" paint-order="stroke">100.0%</text>
+<line x1="648.4" y1="64" x2="648.4" y2="390" stroke="#52606d" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="648.4" y="58" font-size="11" text-anchor="middle" fill="#52606d" font-weight="normal">example target 92%</text>
+<rect x="170" y="418" width="12" height="12" fill="#56B4E9"/>
+<text x="188" y="428" font-size="11" text-anchor="start" fill="#1f2933" font-weight="normal">Oct 25</text>
+<rect x="240" y="418" width="12" height="12" fill="#0072B2"/>
+<text x="258" y="428" font-size="11" text-anchor="start" fill="#1f2933" font-weight="normal">Nov 25</text>
+</svg>

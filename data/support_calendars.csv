@@ -1,0 +1,4 @@
+calendar_code,calendar_name,time_zone,open_local,close_local,note
+AMER,Americas support hours,America/Chicago,08:00,18:00,"Monday to Friday, short illustrative holiday list"
+APAC,Asia Pacific support hours,Asia/Singapore,08:00,18:00,"Monday to Friday, short illustrative holiday list"
+EMEA,EMEA support hours,Europe/London,08:00,18:00,"Monday to Friday, England and Wales bank holidays excluded"

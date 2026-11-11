@@ -1,0 +1,6 @@
+team_id,team_name,fte,description
+SD,Service Desk,4.0,"First line, triage and first contact resolution"
+INF,Infrastructure,3.0,"Network, servers, email platform and telephony"
+APP,Application Support,3.0,"Business applications, reporting and releases"
+IAM,Identity and Security,2.0,"Accounts, access and security events"
+FLD,Field Services,2.0,"Laptops, printers and on-site work"

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+
+# The SQLite database is rebuilt by the pipeline. The CSV, report and chart outputs
+# under data/, model/ and reports/ are committed on purpose: tests compare them with a fresh run.
+build/

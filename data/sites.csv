@@ -1,0 +1,10 @@
+site_id,company_id,site_name,country,time_zone,support_calendar,headcount
+S01,C01,Leeds head office,United Kingdom,Europe/London,EMEA,420
+S02,C01,Cork plant,Ireland,Europe/Dublin,EMEA,130
+S03,C02,Bristol depot,United Kingdom,Europe/London,EMEA,260
+S04,C02,Hamburg depot,Germany,Europe/Berlin,EMEA,140
+S05,C03,Coventry works,United Kingdom,Europe/London,EMEA,310
+S06,C03,Chicago office,United States,America/Chicago,AMER,120
+S07,C03,Singapore office,Singapore,Asia/Singapore,APAC,90
+S08,C04,Manchester head office,United Kingdom,Europe/London,EMEA,240
+S09,C04,Norwich distribution centre,United Kingdom,Europe/London,EMEA,85

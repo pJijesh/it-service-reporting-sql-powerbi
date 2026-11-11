@@ -1,0 +1,8 @@
+ticket_type,priority,response_target_minutes,resolution_target_minutes,clock_basis
+incident,P1,15,240,24X7
+incident,P2,30,480,SUPPORT_HOURS
+incident,P3,120,1200,SUPPORT_HOURS
+incident,P4,240,2400,SUPPORT_HOURS
+service_request,P2,60,960,SUPPORT_HOURS
+service_request,P3,240,2400,SUPPORT_HOURS
+service_request,P4,480,4800,SUPPORT_HOURS

@@ -1,0 +1,71 @@
+---
+title: Power BI star schema for service reporting
+---
+erDiagram
+    DimDate ||--o{ FactTicket : "opened_date, active"
+    DimDate ||--o{ FactTicket : "resolved_date, inactive"
+    DimSite ||--o{ FactTicket : "site_id"
+    DimTeam ||--o{ FactTicket : "team_id = assignee_team"
+    DimPriority ||--o{ FactTicket : "priority"
+    DimTicketType ||--o{ FactTicket : "ticket_type"
+
+    FactTicket {
+        text ticket_id PK
+        text ticket_type FK
+        text site_id FK
+        text assignee_team FK
+        text priority FK
+        date opened_date FK
+        date resolved_date FK
+        text category
+        datetime opened_at
+        datetime resolved_at
+        int response_clock_minutes
+        int resolution_clock_minutes
+        int response_met
+        int resolution_met
+        int is_open
+        int csat
+    }
+    DimDate {
+        date date PK
+        text year_month
+        text month_name
+        int day_of_week
+        int is_uk_working_day
+    }
+    DimSite {
+        text site_id PK
+        text site_name
+        text company_id
+        text company_name
+        text country
+        int headcount
+    }
+    DimTeam {
+        text team_id PK
+        text team_name
+        decimal fte
+    }
+    DimPriority {
+        text priority PK
+        text priority_name
+        int sort_order
+    }
+    DimTicketType {
+        text ticket_type PK
+        text ticket_type_label
+        int has_sla
+    }
+    SlaTarget {
+        text ticket_type
+        text priority
+        int response_target_minutes
+        int resolution_target_minutes
+        text clock_basis
+    }
+    PriorityMatrix {
+        int impact
+        int urgency
+        text priority
+    }
