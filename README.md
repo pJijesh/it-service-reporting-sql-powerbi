@@ -1,5 +1,7 @@
 # IT Service Reporting with SQL and Power BI
 
+![IT Service Reporting with SQL and Power BI: project banner](docs/images/banner.png)
+
 [![Tests](https://github.com/pJijesh/it-service-reporting-sql-powerbi/actions/workflows/test.yml/badge.svg)](https://github.com/pJijesh/it-service-reporting-sql-powerbi/actions/workflows/test.yml) [![Licence: MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE) ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg) ![Dependencies: none](https://img.shields.io/badge/dependencies-none-brightgreen.svg)
 
 **Problem:** Service desk data is plentiful and rarely reported well. Targets are counted on the wrong clock, percentages are averaged, one bad team disappears inside a group average, and the board receives a page of ticket counts that nobody can act on.

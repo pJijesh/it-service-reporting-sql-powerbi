@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "IT Service Reporting with SQL and Power BI"
+abstract: "Tickets to board pack for IT service reporting: SQL views for support-hours service levels, a monthly report with charts, and a documented Power BI design."
+type: software
+authors:
+  - family-names: "Puliyappottammal"
+    given-names: "Jijesh"
+repository-code: "https://github.com/pJijesh/it-service-reporting-sql-powerbi"
+url: "https://github.com/pJijesh/it-service-reporting-sql-powerbi"
+license: MIT
+version: 1.0.0
+date-released: "2026-11-11"
+keywords:
+  - dax
+  - itil
+  - power-bi
+  - python
+  - reporting
+  - service-management
+  - sql

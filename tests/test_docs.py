@@ -67,7 +67,8 @@ def test_readme_follows_the_house_structure():
     text = (ROOT / "README.md").read_text(encoding="utf-8")
     lines = text.split("\n")
     assert lines[0].startswith("# ")
-    assert "badge.svg" in lines[2] and "licence-MIT" in lines[2] and "dependencies-none" in lines[2]
+    badge_line = next(l for l in lines[:8] if "badge.svg" in l)
+    assert "licence-MIT" in badge_line and "dependencies-none" in badge_line
     positions = [text.index(marker) for marker in
                  ("**Problem:**", "**For:**", "**Demonstrates:**", "## Quick start", "## How it is built",
                   "## Design choices", "## Limitations", "## Verification status", "## Licence",
