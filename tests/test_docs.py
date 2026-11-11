@@ -71,7 +71,7 @@ def test_readme_follows_the_house_structure():
     positions = [text.index(marker) for marker in
                  ("**Problem:**", "**For:**", "**Demonstrates:**", "## Quick start", "## How it is built",
                   "## Design choices", "## Limitations", "## Verification status", "## Licence",
-                  "Built by Jijesh Puliyappottammal")]
+                  "Built by Puliyappottammal Jijesh")]
     assert positions == sorted(positions)
     for marker in ("**Problem:**", "**For:**", "**Demonstrates:**"):
         line = next(l for l in lines if l.startswith(marker))
@@ -88,7 +88,7 @@ def test_readme_says_the_data_is_fictional_and_that_power_bi_was_not_run():
 def test_repository_has_the_standard_files():
     for name in ("README.md", "LICENSE", "CONTRIBUTING.md", ".gitignore", ".github/workflows/test.yml"):
         assert (ROOT / name).is_file(), name
-    assert "2026 Jijesh Puliyappottammal" in (ROOT / "LICENSE").read_text(encoding="utf-8")
+    assert "2026 Puliyappottammal Jijesh" in (ROOT / "LICENSE").read_text(encoding="utf-8")
     workflow = (ROOT / ".github" / "workflows" / "test.yml").read_text(encoding="utf-8")
     for version in ('"3.10"', '"3.11"', '"3.12"', '"3.13"'):
         assert version in workflow
